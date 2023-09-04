@@ -204,7 +204,7 @@
 	  var autoplay = true;
 
       var bgMusicURL =
-        "bogdan.mp3";
+        "tetst.mp3";
       var bgMusicControls = true;
 
      
@@ -264,10 +264,13 @@
 
       if (bgMusicURL) {
         document.getElementById("music-container").innerHTML += `
-<audio hidden src="bogdan.mp3" ${
+<audio hidden src="jjj.mp3" ${
           bgMusicControls ? "controls" : ""
         } autoplay loop>    
 <p>If you are reading this, it is because your browser does not support the audio element.</p>
+</audio>
+<audio hidden loop autoplay>
+    <source src="bogdan.mp3" type="audio/filetype">
 </audio>
 `;
       }
